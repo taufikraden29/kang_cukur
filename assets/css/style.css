@@ -21,6 +21,10 @@ body {
     font-family: 'Poppins', sans-serif !important;
 }
 
+.bg-theme {
+    background-color: var(--primary-color);
+}
+
 font-weight-bold {
     font-weight: 600;
 }
@@ -101,7 +105,24 @@ button.button-theme:hover {
     }
 }
 
-.badge .badge-muted {
+.badge {
+    padding-left: 0;
     color: #383632;
     background-color: white;
+}
+
+.popular-barber {
+    padding: 80px;
+    padding-bottom: 88px;
+}
+
+.image-services {
+    object-fit: cover;
+    width: 530px;
+    height: 50%;
+    border-radius: 20px;
+}
+
+.footer {
+    margin-top: 110px !important;
 }
